@@ -14,6 +14,7 @@
 		1C821CE22136FEF800825471 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1C821CE02136FEF800825471 /* LaunchScreen.storyboard */; };
 		1C821CED2136FEF800825471 /* tippyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C821CEC2136FEF800825471 /* tippyTests.swift */; };
 		1C821CF82136FEF800825471 /* tippyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C821CF72136FEF800825471 /* tippyUITests.swift */; };
+		1C821D062137980900825471 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C821D052137980900825471 /* SettingsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		1C821CF32136FEF800825471 /* tippyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tippyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1C821CF72136FEF800825471 /* tippyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tippyUITests.swift; sourceTree = "<group>"; };
 		1C821CF92136FEF800825471 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1C821D052137980900825471 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 		1C821CD62136FEF800825471 /* tippy */ = {
 			isa = PBXGroup;
 			children = (
+				1C821D052137980900825471 /* SettingsViewController.swift */,
 				1C821CD72136FEF800825471 /* AppDelegate.swift */,
 				1C821CD92136FEF800825471 /* ViewController.swift */,
 				1C821CDB2136FEF800825471 /* Main.storyboard */,
@@ -261,6 +264,7 @@
 			files = (
 				1C821CDA2136FEF800825471 /* ViewController.swift in Sources */,
 				1C821CD82136FEF800825471 /* AppDelegate.swift in Sources */,
+				1C821D062137980900825471 /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
